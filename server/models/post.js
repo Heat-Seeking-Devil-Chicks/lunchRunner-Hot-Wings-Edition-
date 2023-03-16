@@ -27,7 +27,7 @@ const postSchema = new mongoose.Schema(
   },
   { timeStamps }
 );
-
+// postSchema.createIndex({expirationTime:1},{expireAfterSeconds:10})
 const Post = mongoose.model("Post", postSchema);
 
 module.exports = Post;
