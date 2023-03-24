@@ -6,7 +6,7 @@ import { changeView } from "../redux/postSlice";
 import "../styles/SideBar.css" 
 import Home from "./map";
 
-
+//
 
 export default function SideBar() {
   let view = useSelector((state) => state.post.view);
